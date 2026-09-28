@@ -8,6 +8,7 @@ class RogueAICore {
     // 担当B: public function revokeAdmin(): bool { return true; }
     public function executeEmergencyShutdown(): void {} // ←これは残す
     public function revokeAdmin(): bool { return true; }//修正した
+    public function cutPower(): bool { return true; }
     // ==========================================
 }
 
